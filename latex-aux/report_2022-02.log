@@ -541,4 +541,96 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 report/report_2022-02.tex:96: Misplaced \cr.
-\reserved@c ->\ifnum 0=
+\reserved@c ->\ifnum 0=`{\fi }\cr 
+                                  
+l.96 ...       &   100.00 EUR &   100.00 EUR  \\ 2
+                                                  2-Feb-02 & SHELL      & ex...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+report/report_2022-02.tex:96: Misplaced alignment tab character &.
+l.96 ... 100.00 EUR &   100.00 EUR  \\ 22-Feb-02 &
+                                                   SHELL      & expense:gas ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+report/report_2022-02.tex:96: Misplaced alignment tab character &.
+l.96 ...   100.00 EUR  \\ 22-Feb-02 & SHELL      &
+                                                   expense:gas              ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+report/report_2022-02.tex:96: Misplaced alignment tab character &.
+l.96 ...& SHELL      & expense:gas               &
+                                                      80.00 EUR &   180.00 E...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+report/report_2022-02.tex:96: Misplaced alignment tab character &.
+l.96 ...expense:gas               &    80.00 EUR &
+                                                     180.00 EUR  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+report/report_2022-02.tex:97: Misplaced \cr.
+\reserved@c ->\ifnum 0=`{\fi }\cr 
+                                  
+l.97 
+     
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+report/report_2022-02.tex:98: Misplaced \noalign.
+\bottomrule ->\noalign 
+                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
+l.98 \bottomrule
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+report/report_2022-02.tex:99: Interruption.
+<to be read again> 
+                   \vskip 
+l.99 
+     
+? 
+report/report_2022-02.tex:99: Emergency stop.
+<to be read again> 
+                   \vskip 
+l.99 
+     
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 13452 strings out of 478659
+ 230247 string characters out of 2845447
+ 532340 words of memory out of 3000000
+ 31450 multiletter control sequences out of 15000+600000
+ 404511 words of font info for 31 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,6n,63p,529b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
+report/report_2022-02.tex:99:  ==> Fatal error occurred, no output PDF file pro
+duced!
