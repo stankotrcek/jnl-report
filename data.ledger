@@ -1,0 +1,10 @@
+# data example
+
+2022-02-02    STORE   
+    expense:food		 100.00 EUR	; food
+    bank:mybank 		-100.00 EUR	
+
+2022-02-02    SHELL   
+    expense:gas 		  80.00 EUR	; gasoline
+    bank:mcr     		 -80.00 EUR	
+

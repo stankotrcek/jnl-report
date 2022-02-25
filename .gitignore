@@ -1,0 +1,6 @@
+latex-aux
+latex-aux/*.log
+*.aux
+*.log
+*.out
+*.pdf
